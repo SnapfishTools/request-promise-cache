@@ -1,0 +1,22 @@
+{
+  "name": "request-promise-cache",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/cache-request.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "preinstall": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.2",
+    "cache-base": "^4.0.0",
+    "http-cache-semantics": "^4.0.0",
+    "stealthy-require": "1.1.0"
+  }
+}
